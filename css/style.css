@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap');
+.navbar{
+    background-color: transparent !important;
+   
+}
+.navbar-brand{
+    font-family: 'Rubik Moonrocks', cursive;
+    font-size: 1.6rem;
+    color: pink !important;
+}
+.collapse{
+    justify-content: center;
+    align-items: center;
+}
+.banner1{
+    min-height: 650px;
+    position: relative;
+    overflow: hidden;
+    padding: 180px 0 200px 0;
+    background: linear-gradient(to bottom, #cc99ff 0%, #ff6699 30%);
+    
+}
+.banner1 h1{
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    text-shadow: 2px 0px #fa3a3a;
+}
+.banner1 .btn{
+    color: #ff6684 !important;
+    font-weight: 600;
+    background: #fff;
+    border-color: #fff;
+    box-shadow: 0 4px 15px 0 rgb(126 52 161 / 75%) !important;
+    border-radius: 10rem;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    
+    
+}
+.btn:hover{
+    background: linear-gradient(to right, #f78539 0%, #55aaf0 30%);
+    color: #fff !important;
+}
+.banner2 img{
+    width: 22rem;
+    margin-left: 80px !important;
+}
+.banner2 h1{
+    margin-left: 30px;
+    color: #222222;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 60px;
+    margin-bottom: 10px;
+    font-family: 'Arvo', serif;
+}
+.banner2 p{
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 30px;
+    font-size: 16px;
+    line-height: 20px;
+    color: #abacae;
+    text-justify: auto;
+}
+.banner2 .btn{
+    color: #ff6684 !important;
+    font-weight: 600;
+    background: #fff;
+    border-color: #fff;
+    box-shadow: 0 4px 15px 0 rgb(126 52 161 / 75%) !important;
+    border-radius: 10rem;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    margin-left: 30px;
+    
+    
+}
+.btn:hover{
+    background: linear-gradient(to right, #f78539 0%, #55aaf0 30%);
+    color: #fff !important;
+}
+.banner3{
+    background: linear-gradient(45deg, #df2bb4, #f8a029) !important;
+    min-height: 650px;
+
+}
+.banner3 img{
+    width: 100px;
+    align-items: center;
+    justify-items: center;
+}
+.banner3 .card{
+    box-shadow: 2px 5px 8px 2px #9e9d9d;
+    cursor: pointer;
+}
+.card :hover{
+    box-shadow: 4px 7px 12px 8px #9e9d9d;
+}
+
+.footer{
+    background-color: #222222;
+}
+
+@media (max-width: 576px) { 
+    .banner2 img{
+        margin: 0 !important ;
+        width: 330px !important;
+    }
+    .banner2 h1{
+        margin: 0px !important;
+        
+    }
+    .banner2 p{
+      
+        margin: 0px !important;
+       
+    }
+    .banner2 .row{
+        margin: 0;
+    }
+    .banner3 .card{
+        width: 100% !important;
+    }
+ }
